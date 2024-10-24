@@ -6,6 +6,9 @@ variable "password" {
 }
 
 variable "controller_ip" {
+description = "The IP address of the controller"
+  type        = string
+  default     = "54.174.149.194"  # Set your desired default value here
 }
 
 variable "ace_password" {
