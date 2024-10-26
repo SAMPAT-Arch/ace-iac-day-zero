@@ -1,9 +1,5 @@
 // ACE-IAC Core Aviatrix Infrastructure
 
-# Aviatrix vpc
-resource "aviatrix_vpc" "default"{
-}
-
 # Private Key creation
 resource "tls_private_key" "avtx_key" {
   algorithm = "RSA"
