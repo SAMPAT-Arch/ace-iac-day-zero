@@ -3,6 +3,7 @@
 ##################################################################
 data "aws_ami" "ubuntu" {
   provider    = aws.ohio
+  provider    =aws.virginia
   most_recent = true
   filter {
     name   = "name"
